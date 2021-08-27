@@ -181,17 +181,8 @@ button:focus {
   background-size: cover;
   background-repeat: no-repeat;
 }
-@media screen and (min-width: 768px) {
-  .img {
-    width: auto;
-  }
-  .swiper-button-next, .swiper-button-prev {
-    top: 50% !important;
-    transform: translate(0, -50%) !important;
-    width: 20rem !important;
-    height: 20rem !important;
-  }
-}
+
+
 @media screen and (min-width: 1024px) {
   .title {
     font-size: 4.5rem;
@@ -210,5 +201,13 @@ button:focus {
   .sub-title {
     font-size: 3rem;
   }
- 
+  .img {
+    width: auto;
+  }
+  .swiper-button-next, .swiper-button-prev {
+    top: 50% !important;
+    transform: translate(0, -50%) !important;
+    width: 20rem !important;
+    height: 20rem !important;
+  }
 }
