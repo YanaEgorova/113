@@ -1,5 +1,6 @@
 .header__wrapper {
     background-color: var(--second-brand-color);
+    z-index: 99999;
 }
 .header {
     padding: 2rem 2rem;
